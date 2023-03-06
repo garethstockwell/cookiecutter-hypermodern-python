@@ -8,22 +8,25 @@
 [![License][license badge]][license]<br>
 [![Read the documentation][readthedocs badge]][readthedocs page]
 [![Tests][github actions badge]][github actions page]
-[![Codecov][codecov badge]][codecov page]<br>
 [![pre-commit enabled][pre-commit badge]][pre-commit project]
 [![Black codestyle][black badge]][black project]
 [![Contributor Covenant][contributor covenant badge]][code of conduct]
+
+<!--
+[![Codecov][codecov badge]][codecov page]<br>
+-->
 
 [black badge]: https://img.shields.io/badge/code%20style-black-000000.svg
 [black project]: https://github.com/psf/black
 [calver badge]: https://img.shields.io/badge/calver-YYYY.MM.DD-22bfda.svg
 [calver]: http://calver.org/
-[code of conduct]: https://github.com/cjolowicz/cookiecutter-hypermodern-python/blob/main/CODE_OF_CONDUCT.md
-[codecov badge]: https://codecov.io/gh/cjolowicz/cookiecutter-hypermodern-python-instance/branch/main/graph/badge.svg
-[codecov page]: https://codecov.io/gh/cjolowicz/cookiecutter-hypermodern-python-instance
+[code of conduct]: https://github.com/garethstockwell/cookiecutter-hypermodern-python/blob/main/CODE_OF_CONDUCT.md
+[codecov badge]: https://codecov.io/gh/garethstockwell/cookiecutter-hypermodern-python-instance/branch/main/graph/badge.svg
+[codecov page]: https://codecov.io/gh/garethstockwell/cookiecutter-hypermodern-python-instance
 [contributor covenant badge]: https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg
-[github actions badge]: https://github.com/cjolowicz/cookiecutter-hypermodern-python/workflows/Tests/badge.svg
-[github actions page]: https://github.com/cjolowicz/cookiecutter-hypermodern-python/actions?workflow=Tests
-[github page]: https://github.com/cjolowicz/cookiecutter-hypermodern-python
+[github actions badge]: https://github.com/garethstockwell/cookiecutter-hypermodern-python/workflows/Tests/badge.svg
+[github actions page]: https://github.com/garethstockwell/cookiecutter-hypermodern-python/actions?workflow=Tests
+[github page]: https://github.com/garethstockwell/cookiecutter-hypermodern-python
 [license badge]: https://img.shields.io/github/license/cjolowicz/cookiecutter-hypermodern-python
 [license]: https://opensource.org/licenses/MIT
 [pre-commit badge]: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
@@ -35,20 +38,18 @@
 
 <!-- badges-end -->
 
-<p align="center"><img alt="logo" src="docs/_static/logo.png" width="50%" /></p>
+[Cookiecutter] template for a Python package based on [@cjolowicz]'s [cookiecutter-hypermodern-python][parent project github page].
 
-[Cookiecutter] template for a Python package based on the
-[Hypermodern Python] article series.
+✨📚✨ For further details, see [the full documentation of the parent project][readthedocs page].
 
-✨📚✨ [Read the full documentation][readthedocs page]
-
+[@cjolowicz]: https://github.com/cjolowicz
 [cookiecutter]: https://github.com/audreyr/cookiecutter
-[hypermodern python]: https://medium.com/@cjolowicz/hypermodern-python-d44485d9d769
+[parent project github page]: https://github.com/garethstockwell/cookiecutter-hypermodern-python
 
 ## Usage
 
 ```console
-cookiecutter gh:cjolowicz/cookiecutter-hypermodern-python --checkout=2022.6.3
+cookiecutter gh:garethstockwell/cookiecutter-hypermodern-python --checkout=2022.6.3
 ```
 
 ## Features

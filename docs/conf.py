@@ -21,6 +21,7 @@ linkcheck_ignore = [
     "https://github.com/cjolowicz/cookiecutter-hypermodern-python/releases/tag/",
     "https://cookiecutter-hypermodern-python.readthedocs.io",
     "https://badgen.net/badge/status/alpha/d8624d",
+    "https://gitlab.com/pycqa/flake8-docstrings",
 ]
 myst_enable_extensions = [
     "colon_fence",
